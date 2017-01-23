@@ -1,0 +1,15 @@
+
+#name{
+	text-align: center;
+	font-family:Serif;
+	color:white;
+	background-color:Black;
+	
+}
+
+#body{
+	padding: 75px;
+	margin: 50px;
+	border-style: solid;
+	border-color: black;
+}

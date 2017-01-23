@@ -1,0 +1,50 @@
+#name{
+	
+	font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+	color:white;
+	background-color:#7D7872;
+	text-align: bottom center;
+	padding: 100px;
+	border: solid black 5px;
+}
+a:link{
+	text-decoration: none;//removes hyperlink underline
+	
+}
+a:visited {
+    text-decoration: none;
+	color: white;//you cant disable color change for visited links; you can only provide a color
+}
+
+#navbar{
+	background-color: black;	
+}
+
+#navbar ul li{
+	color: white;
+	list-style-type: none; //removes bullet list
+	margin: 0;
+	padding: 0;
+	background-color: #7D7872;	
+	display: inline;
+    padding: 10px 30px;
+	border: 
+}
+
+#body{
+	padding: 0 5%;
+	margin: 0 auto; 
+	border-style: solid;
+	border-color: black;
+	max-width: 940px;
+	
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: -1;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
